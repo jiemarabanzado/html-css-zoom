@@ -1,3 +1,42 @@
+/*--------
+-----reset---
+--------*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*--------
+--common---
+----*/
 body{
-    background-color: pink;
+    background-color:black;
+}
+/*-------
+--main*/
+.container{
+    width: 1300px;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+.image{
+    width: 100%;
+}
+.guest{
+    width: calc(100%/6 - 5px);
+    position: relative;
+    margin-bottom: 10px;
+}
+.name{
+    color: white;
+    font-size: 13px;
+    height: 20px;
+    position: absolute;
+    background-color: rgba(0, 0,0,0.3);
+    left: 0px;
+    bottom: 0px;
 }
