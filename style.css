@@ -102,6 +102,14 @@ li{
 }
 .right-foot{
     width: 20%;
+    justify-content: flex-end;
+}
+.end{
+    padding: 20px;
+    color: red;
+    background-color: rgba(0, 0,0,0.3);
+    font-size: 13px;
+    
 }
 .share{
     color: green;
