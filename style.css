@@ -75,8 +75,11 @@ ul{
     align-items: center;
 }
 li{
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-size: 15px ;
+}
+.icon{
+    justify-self: center;
 }
 .text{
     font-size: 10px;
@@ -86,5 +89,20 @@ li{
     align-self: center;
 }
 .column-icon{
+   text-align: center;
+   padding-right: 10px;
+
+}
+.left-foot{
+    width: 20%;
+}
+.middle-foot{
+    width: 60%;
     justify-content: center;
+}
+.right-foot{
+    width: 20%;
+}
+.share{
+    color: green;
 }
